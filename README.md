@@ -73,6 +73,9 @@ plt.plot(kuwait.year, kuwait.population / 10**6, color='red')
 plt.tight_layout() # This formats the layout correctly.
 plt.show()
 
+![04 Subplots of Kuwaits econometric data](https://user-images.githubusercontent.com/48648985/55690878-20fa9800-598f-11e9-9cb4-cf38f1e0b6e2.png)
+
+
 #### Interpreting these graphs:
 ####  In the late 70s, GDP in Billions, dropped siginificantly, which can be 
 ####   attributed to a economic crisis at the time. The GDP eventually
