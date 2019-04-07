@@ -9,6 +9,9 @@ from matplotlib import pyplot as plt
 data = pd.read_csv('countries.csv')
 data.head()
 
+![01 Data head countries file](https://user-images.githubusercontent.com/48648985/55690816-315e4300-598e-11e9-8020-e4317be622d2.png)
+
+
 ### Finding the mean GDP per Capita for each country
 
 data.groupby(['country']).mean()
