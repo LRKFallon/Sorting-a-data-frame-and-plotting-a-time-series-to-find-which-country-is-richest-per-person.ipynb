@@ -32,6 +32,9 @@ top_5 = mean_gdp_per_capita.sort_values(ascending=False).head()
 print(top_5)
 ### This will show the countries with the highest GDP per Capita first.
 
+![02 Top 5 countries with heighest GDP per Capita in order](https://user-images.githubusercontent.com/48648985/55690822-56eb4c80-598e-11e9-942a-e79ba9377fc2.png)
+
+
 ## Is Kuwait really the richest country in the world on a per-person basis?
 
 ### Let us first isolate the data on Kuwait:
