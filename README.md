@@ -48,6 +48,9 @@ plt.plot(kuwait.year, kuwait.gdpPerCapita, color='darkgreen')
 plt.title('GDP per Capita in Kuwait')
 plt.show()
 
+![03 How GDP per Capita in Kuwait has changed over time](https://user-images.githubusercontent.com/48648985/55690843-ae89b800-598e-11e9-9bdb-ea1ecedb55bc.png)
+
+
 #### Interpreting the graph:
 ####  Between the 1950s and the early 1970s, Kuwait's GDP was very high, and 
 ####   over 80,000 USD, however it then dropped.
