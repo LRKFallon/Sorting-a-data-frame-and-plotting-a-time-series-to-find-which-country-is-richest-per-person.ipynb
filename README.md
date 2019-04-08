@@ -1,5 +1,7 @@
 # Sorting-a-data-frame-and-plotting-a-time-series-to-find-which-country-is-richest-per-person.ipynb
-### Using data from a .csv file, ranging from year 1952 onwards, the data frame has been sorted and visualised by plotting a time series ###  to find which country is the richest on a per person basis. I made created this using pandas, matplotlib and pyplot, run on Jupyter ###  Notebooks.
+### Using data from a .csv file, ranging from year 1952 onwards, the data frame has been sorted and visualised by plotting a time series   to find which country is the richest on a per person basis. I made created this using pandas, matplotlib and pyplot, to be run on    Jupyter Notebooks.
+
+##### This analysis includes aggregating values with groupby(), sorting values, making line charts/time series and using subplots.
 
 ## For simplicity, countries' GDP per Capita will be compared.
 
@@ -11,12 +13,13 @@ data.head()
 
 ![01 Data head countries file](https://user-images.githubusercontent.com/48648985/55690816-315e4300-598e-11e9-8020-e4317be622d2.png)
 
-### Finding the mean GDP per Capita for each country
+#### Note that GDP per Capita shown her is equivalent to the 2005 US Dollar $
+### Finding the mean GDP per Capita for each country:
 
 data.groupby(['country']).mean()
 
-### Group this data frame with the country column, and find the mean for 
-###  all the other columns for each country.
+### Grouping this pandas data frame with the country column, and finding the mean for 
+###  all the other columns for each country:
 
 ![02 Grouped data on countries an mean GDP per Capita](https://user-images.githubusercontent.com/48648985/55724401-3b6e5900-5a03-11e9-8f44-d5f59ebf023d.png)
 
@@ -38,9 +41,9 @@ print(top_5)
 ![04 Top 5 countries in terms of GDP per Capita](https://user-images.githubusercontent.com/48648985/55725099-d4ea3a80-5a04-11e9-8f43-e4ea1fc60b53.png)
 
 
-## Is Kuwait really the richest country in the world on a per-person basis?
+# Is Kuwait really the richest country in the world on a per-person basis?
 
-### Let us first isolate the data on Kuwait:
+### To analyse this question, first, the data on Kuwait needs to be isolated:
 
 kuwait = data[data.country == 'Kuwait']
 kuwait.head()
