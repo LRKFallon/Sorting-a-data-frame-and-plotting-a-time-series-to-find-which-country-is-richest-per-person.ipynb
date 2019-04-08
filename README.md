@@ -11,13 +11,14 @@ data.head()
 
 ![01 Data head countries file](https://user-images.githubusercontent.com/48648985/55690816-315e4300-598e-11e9-8020-e4317be622d2.png)
 
-
 ### Finding the mean GDP per Capita for each country
 
 data.groupby(['country']).mean()
 
 ### Group this data frame with the country column, and find the mean for 
 ###  all the other columns for each country.
+
+![02 Grouped data on countries an mean GDP per Capita](https://user-images.githubusercontent.com/48648985/55724401-3b6e5900-5a03-11e9-8f44-d5f59ebf023d.png)
 
 ### Selecting the GDP per Capita data frame exclusively:
 
