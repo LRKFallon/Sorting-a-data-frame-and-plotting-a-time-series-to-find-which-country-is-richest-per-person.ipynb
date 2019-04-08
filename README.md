@@ -76,7 +76,7 @@ plt.plot(kuwait.year, kuwait.population / 10**6, color='red')
 plt.tight_layout() # This formats the layout correctly.
 plt.show()
 
-![04 Subplots of Kuwaits econometric data](https://user-images.githubusercontent.com/48648985/55690878-20fa9800-598f-11e9-9cb4-cf38f1e0b6e2.png)
+![06 3 subplots of Kuwait's Econometric time series information](https://user-images.githubusercontent.com/48648985/55725724-2d6e0780-5a06-11e9-820e-d228a6a60207.png)
 
 
 #### Interpreting these graphs:
