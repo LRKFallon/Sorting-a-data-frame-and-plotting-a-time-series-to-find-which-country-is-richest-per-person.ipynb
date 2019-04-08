@@ -111,6 +111,9 @@ plt.show()
 
 print(top_5)
 
+
+![04 Top 5 countries in terms of GDP per Capita](https://user-images.githubusercontent.com/48648985/55725099-d4ea3a80-5a04-11e9-8f43-e4ea1fc60b53.png)
+
 ### Comparing how the GDP of the US compared over time with the GDP of 
 ###  Kuwait.
 
