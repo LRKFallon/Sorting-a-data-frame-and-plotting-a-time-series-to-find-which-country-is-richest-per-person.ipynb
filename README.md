@@ -101,6 +101,9 @@ plt.title('GDP and Population Growth in Kuwait (first year = 100)')
 plt.legend(['Population', 'GDP', 'GDP per Capita'])
 plt.show()
 
+![07 GDP and population growth in Kuwait time series](https://user-images.githubusercontent.com/48648985/55726521-e719a800-5a07-11e9-8b6c-d2d740a3e5d5.png)
+
+
 #### Intperpreting the graph:
 ####  Up until the early 1970s, the population and the GDP grew at roughly 
 ####   the same rate, but after that, the population kept growing but the 
