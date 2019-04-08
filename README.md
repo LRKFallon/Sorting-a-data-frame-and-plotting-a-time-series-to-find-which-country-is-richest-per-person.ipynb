@@ -134,5 +134,3 @@ plt.show()
 ###   1980s, but since then it has been much closer to that of the United 
 ###   States.
 
-### Therefore, the richest country on a per person basis is not clear a clear
-###  cut.
