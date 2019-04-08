@@ -101,7 +101,7 @@ plt.title('GDP and Population Growth in Kuwait (first year = 100)')
 plt.legend(['Population', 'GDP', 'GDP per Capita'])
 plt.show()
 
-![07 GDP and population growth in Kuwait time series](https://user-images.githubusercontent.com/48648985/55726521-e719a800-5a07-11e9-8b6c-d2d740a3e5d5.png)
+![07 GDP and Population Growth in Kuwait time series chart](https://user-images.githubusercontent.com/48648985/55727182-5e037080-5a09-11e9-8a9c-dcf1ff50e389.png)
 
 
 #### Intperpreting the graph:
