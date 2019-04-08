@@ -51,7 +51,7 @@ plt.plot(kuwait.year, kuwait.gdpPerCapita, color='darkgreen')
 plt.title('GDP per Capita in Kuwait')
 plt.show()
 
-![03 How GDP per Capita in Kuwait has changed over time](https://user-images.githubusercontent.com/48648985/55690843-ae89b800-598e-11e9-9bdb-ea1ecedb55bc.png)
+![05 GDP per Capita in Kuwait time series](https://user-images.githubusercontent.com/48648985/55725235-2abee280-5a05-11e9-995c-c56edbb5d4b0.png)
 
 
 #### Interpreting the graph:
