@@ -27,6 +27,8 @@ data.groupby(['country']).mean().gdpPerCapita
 ### These values are the GDP per Capita for all of the available years for 
 ###  each country.
 
+![03 Grouped data GDP per Capita column](https://user-images.githubusercontent.com/48648985/55724678-d9622380-5a03-11e9-97b2-583e4190cd79.png)
+
 mean_gdp_per_capita = data.groupby(['country']).mean().gdpPerCapita
 
 top_5 = mean_gdp_per_capita.sort_values(ascending=False).head()
