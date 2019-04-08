@@ -124,6 +124,8 @@ plt.plot(kuwait.year, kuwait.gdpPerCapita)
 plt.legend(['United States', 'Kuwait'])
 plt.show()
 
+![08 Time series comparison of Gdp per Capita of the US and Kuwait](https://user-images.githubusercontent.com/48648985/55727517-10d3ce80-5a0a-11e9-8b2e-a22ddb286ec9.png)
+
 ### Interpreting the graph:
 ###  The GDP in Kuwait was much higher than the United States until the 
 ###   1980s, but since then it has been much closer to that of the United 
